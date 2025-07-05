@@ -52,6 +52,38 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 
+
+# AngularDay03
+
+This project is part of the **Angular learning series**. It demonstrates key concepts such as component creation, data binding, forms handling, routing, and standalone components in Angular 16+ using Angular CLI.
+
+## 🛠 Technologies Used
+
+- Angular 16+
+- TypeScript
+- HTML & CSS
+- Bootstrap (if used)
+- Angular CLI
+
+## 📁 Project Structure
+
+```bash
+AngularDay03/
+├── src/
+│   ├── app/
+│   │   ├── home/         # Home standalone component 
+│   │   ├── about/        # About standalone component
+│   │   ├── contact/      # Contact standalone component
+│   │   ├── products/     # products component
+│   │   └── ...
+│   ├── assets/
+│   └── index.html
+├── angular.json
+├── package.json
+└── README.md
+
+Major on Routing between the pages
+
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## Additional Resources
